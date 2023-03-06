@@ -53,6 +53,6 @@ if(centenaDeMilSeconds%6==0 && centenaDeMilSeconds!=0){
 //render your react application
 ReactDOM.render(<SecondsCounter centenaDeMilSeconds={centenaDeMilSeconds} decenaDeMilSeconds={decenaDeMilSeconds} unidadDeMilSeconds={unidadDeMilSeconds} centenaSeconds={centenaSeconds} decenaSeconds={decenaSeconds} seconds={tiempoSegundos} />, document.querySelector("#app"));
         
-}, 5)
+}, 1000)
 
 
